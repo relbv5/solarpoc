@@ -11,7 +11,7 @@ const Main = () => {
         <div className="main__title">
           <img src={hello} alt="hello" />
           <div className="main__greeting">
-            <h1>Hello Codersbite</h1>
+            <h1>Hello User</h1>
             <p>Welcome to your admin dashboard</p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const Main = () => {
               aria-hidden="true"
             ></i>
             <div className="card_inner">
-              <p className="text-primary-p">Number of Subscribers</p>
+              <p className="text-primary-p">Upcoming Jobs</p>
               <span className="font-bold text-title">578</span>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Main = () => {
           <div className="card">
             <i className="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
             <div className="card_inner">
-              <p className="text-primary-p">Times of Watching</p>
+              <p className="text-primary-p">Jobs In Progress</p>
               <span className="font-bold text-title">2467</span>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Main = () => {
               aria-hidden="true"
             ></i>
             <div className="card_inner">
-              <p className="text-primary-p">Number of Videos</p>
+              <p className="text-primary-p">Low Inventory Items</p>
               <span className="font-bold text-title">340</span>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Main = () => {
               aria-hidden="true"
             ></i>
             <div className="card_inner">
-              <p className="text-primary-p">Number of Likes</p>
+              <p className="text-primary-p">Proposals Submitted</p>
               <span className="font-bold text-title">645</span>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Main = () => {
             <div className="charts__left__title">
               <div>
                 <h1>Daily Reports</h1>
-                <p>Cupertino, California, USA</p>
+                <p>St. Louis, Missouri, USA</p>
               </div>
               <i className="fa fa-usd" aria-hidden="true"></i>
             </div>
@@ -80,7 +80,7 @@ const Main = () => {
             <div className="charts__right__title">
               <div>
                 <h1>Stats Reports</h1>
-                <p>Cupertino, California, USA</p>
+                <p>St. Louis, Missouri, USA</p>
               </div>
               <i className="fa fa-usd" aria-hidden="true"></i>
             </div>
@@ -97,7 +97,7 @@ const Main = () => {
               </div>
 
               <div className="card3">
-                <h1>Users</h1>
+                <h1>Customers</h1>
                 <p>3900</p>
               </div>
 
