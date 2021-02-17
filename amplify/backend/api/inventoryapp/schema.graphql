@@ -1,0 +1,9 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  quantity: Int!
+  description: String
+  brand: String
+  category: String
+
+}
