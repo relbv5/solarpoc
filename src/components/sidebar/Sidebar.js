@@ -6,7 +6,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
     <div className={sidebarOpen ? "sidebar_responsive" : ""} id="sidebar">
       <div className="sidebar__title">
         <div className="sidebar__img">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" hspace="20"/>
           <h1>Solara</h1>
         </div>
         <i
