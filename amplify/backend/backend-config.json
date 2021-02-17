@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "solarpoc902fbe73": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

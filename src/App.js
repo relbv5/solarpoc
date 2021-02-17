@@ -3,6 +3,7 @@ import "./App.css";
 import Main from "./components/main/Main";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
+import {withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react';
 
 const App = () => {
   const [sidebarOpen, setsidebarOpen] = useState(false);
@@ -21,4 +22,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default withAuthenticator(App);
